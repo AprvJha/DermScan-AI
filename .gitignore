@@ -1,0 +1,43 @@
+# Virtual environments
+venv/
+.venv/
+.train-venv/
+env/
+ENV/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Application logs
+*.log
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Dataset files (large files)
+HAM10000_images_part_1/
+HAM10000_images_part_2/
+HAM10000_metadata.csv
+HAM10000_images_part_1.zip
+HAM10000_images_part_2.zip

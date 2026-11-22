@@ -1,0 +1,19 @@
+# Skin Disease Detection System - Dependencies
+# Recommended Python version: 3.11
+
+# --- Web Interface & Inference (app.py) ---
+streamlit==1.57.0
+tensorflow==2.20.0
+keras==3.14.1
+opencv-python-headless==4.13.0.92
+Pillow==12.2.0
+numpy==2.4.4
+
+# --- Model Training & Evaluation (train.py) ---
+pandas==3.0.3
+scikit-learn==1.8.0
+matplotlib==3.10.9
+seaborn==0.13.2
+
+# --- Testing ---
+pytest>=7.0.0
